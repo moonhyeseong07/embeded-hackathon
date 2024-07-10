@@ -45,7 +45,7 @@ while camera.isOpened():
     
     for i in range(len(detect)):
         class_id = int(detect[i, 5])
-        #
+        
         if class_id == 0:
             x1 = int(detect[i, 0])
             y1 = int(detect[i, 1])
